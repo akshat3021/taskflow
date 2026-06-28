@@ -176,16 +176,6 @@ chore: add environment variable examples
 docs: write API documentation
 ```
 
-Follows Conventional Commits — machine-readable, clean history.
-
----
-
-## Resume-Worthy Description
-
-> **TaskFlow** — Full-stack task management app built with the MERN stack (MongoDB, Express, React, Node.js). Features REST API with Joi validation, real-time UI updates via React Context + useReducer, full-text search with MongoDB text indexes, optimistic UI updates with revert-on-failure, and a custom CSS design system with 20+ reusable components. Deployed on Vercel + Railway with MongoDB Atlas.
-
----
-
 ## Future Improvements
 
 - [ ] Drag-and-drop Kanban board view
