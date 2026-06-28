@@ -1,0 +1,55 @@
+.task-form {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-6);
+}
+
+.task-form__grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: var(--space-4);
+}
+
+.task-form__full {
+  grid-column: 1 / -1;
+}
+
+.task-form__optional {
+  font-size: var(--text-xs);
+  color: var(--color-text-disabled);
+  font-weight: var(--weight-regular);
+}
+
+.task-form__char-count {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: var(--space-1);
+}
+
+.task-form__char-count span {
+  font-size: var(--text-xs);
+  color: var(--color-text-disabled);
+}
+
+.task-form__char-count--warn {
+  color: var(--color-warning) !important;
+}
+
+.task-form__actions {
+  padding-top: var(--space-2);
+  border-top: 1px solid var(--color-border);
+}
+
+/* Textarea inherits from Input.css but we add form-specific tweaks */
+.task-form .input-field[rows] {
+  min-height: 90px;
+}
+
+@media (max-width: 480px) {
+  .task-form__grid {
+    grid-template-columns: 1fr;
+  }
+  .task-form__full {
+    grid-column: 1;
+  }
+}

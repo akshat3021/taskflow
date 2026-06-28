@@ -1,0 +1,28 @@
+# TaskFlow — .gitignore
+
+# ── Node ────────────────────────────────────────────────────
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# ── Environment Variables ────────────────────────────────────
+.env
+.env.local
+.env.*.local
+
+# ── Build Outputs ────────────────────────────────────────────
+dist/
+build/
+
+# ── OS / Editor ──────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ── Logs ─────────────────────────────────────────────────────
+logs/
+*.log

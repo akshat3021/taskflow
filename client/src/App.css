@@ -1,0 +1,47 @@
+.app-main {
+  flex: 1;
+  padding: var(--space-8) 0 var(--space-16);
+}
+
+.app-container {
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding: 0 var(--space-6);
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-8);
+}
+
+.app-section {
+  animation: fadeInUp var(--transition-slow) ease;
+}
+
+/* ── Toolbar ──────────────────────────────────────────────── */
+.app-toolbar {
+  display: flex;
+  align-items: flex-end;
+  gap: var(--space-4);
+}
+
+.app-toolbar__new-btn {
+  flex-shrink: 0;
+  /* Hidden on desktop — new task is in the header */
+  display: none;
+}
+
+/* On mobile where header collapses the button label, show here */
+@media (max-width: 640px) {
+  .app-toolbar__new-btn {
+    display: inline-flex;
+  }
+}
+
+@media (max-width: 480px) {
+  .app-container {
+    padding: 0 var(--space-4);
+    gap: var(--space-6);
+  }
+  .app-main {
+    padding: var(--space-6) 0 var(--space-12);
+  }
+}

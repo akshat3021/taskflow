@@ -1,0 +1,14 @@
+.task-list {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-3);
+}
+
+.task-list > div {
+  animation: fadeInUp var(--transition-normal) ease both;
+}
+
+/* Ensure skeleton cards render like real cards */
+.task-list__skeleton {
+  /* Skeleton cards already have the right styling */
+}
