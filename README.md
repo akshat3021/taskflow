@@ -2,6 +2,9 @@
 
 > Clarity in every task. Flow in every day.
 
+**Live Demo:** [https://taskflow-weld-nu.vercel.app](https://taskflow-weld-nu.vercel.app)  
+**API Endpoint:** [https://taskflow-e3fm.onrender.com/api/v1](https://taskflow-e3fm.onrender.com/api/v1)
+
 A production-grade MERN stack task management application built to demonstrate real-world full-stack engineering practices.
 
 [![React](https://img.shields.io/badge/React-18-61DAFB?logo=react)](https://react.dev)
@@ -59,7 +62,7 @@ See [architecture doc](./docs/ARCHITECTURE.md) for the full tree.
 ### 1. Clone and install
 
 ```bash
-git clone https://github.com/yourusername/taskflow.git
+git clone https://github.com/akshat3021/taskflow.git
 cd taskflow
 
 # Install server deps
